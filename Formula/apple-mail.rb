@@ -1,19 +1,19 @@
 class AppleMail < Formula
   desc "Apple Mail CLI for AI agents: read and triage mail, never sends"
   homepage "https://github.com/Bam679/apple-mail-cli"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   depends_on :macos
 
   on_macos do
     on_arm do
-      url "https://github.com/Bam679/apple-mail-cli/releases/download/v0.1.0/apple-mail_0.1.0_darwin_arm64.tar.gz"
-      sha256 "81076da165f1a59f6d0df4b23f8e16a744f55c6e4ae64b9d783f7d1afab40b9f"
+      url "https://github.com/Bam679/apple-mail-cli/releases/download/v0.2.0/apple-mail_0.2.0_darwin_arm64.tar.gz"
+      sha256 "85dc712378d54c5e3081b7397eb0da5e2b73d11b663e89ea594008faab5b27a8"
     end
     on_intel do
-      url "https://github.com/Bam679/apple-mail-cli/releases/download/v0.1.0/apple-mail_0.1.0_darwin_amd64.tar.gz"
-      sha256 "dea34116748d470572d4c110d2c4f686c74cad4f9674750c5407758f3db3c0a3"
+      url "https://github.com/Bam679/apple-mail-cli/releases/download/v0.2.0/apple-mail_0.2.0_darwin_amd64.tar.gz"
+      sha256 "967b97cdb82a2a374ef2943ad283f85606e2c612170f42a5b1a72fa58d7d5935"
     end
   end
 
